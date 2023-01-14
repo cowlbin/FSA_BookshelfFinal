@@ -11,9 +11,60 @@ a {
 .navbar {
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    max-width: 100vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
     background-color: palegoldenrod;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.logo {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5%;
+    width: 900px;
+}
+
+.book_header {
+    display: flex;
+    margin-left: 2%;
+}
+
+.nav_tabs {
+    display: flex;
+    width: 50%;
+    float: right;
+    margin-right: 10%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav_tabs li {
+    display: inline;
+    color: black;
+}
+
+.nav_tabs li a {
+    color: black;
+}
+
+/* styling for adding books */
+.books_container {
+    margin-top: 50px;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputs>label {
+    margin: 5px;
+}
+
+#inputs>input {
+    margin: 5px;
 }
